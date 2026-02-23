@@ -158,7 +158,7 @@ nav .menu a {
 }
 
 .about-info .info-card h4 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
@@ -292,6 +292,20 @@ footer .footer-container {
     .container {
         width: 95%;
     }
+    nav {
+        gap: 20px;
+    }
+    nav .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    #banner {
+        margin: 20px;
+    }
+    #banner .banner-image img {
+        width: 100%;
+    }
     .section-heading h2 {
         font-size: 30px;
     }
@@ -304,11 +318,24 @@ footer .footer-container {
     #about .about-container .about-info {
         gap: 40px;
     }
-    #skills .skills-container .skill-box, #about .about-container .about-info {
+    #resume .resume-container {
+        margin-top: 57px;
+    }
+    .resume-card {
+        margin-right: 10px;
+    }
+    #skills .skills-container .skill-box, #about .about-container .about-info, footer .footer-container, #resume .resume-container, nav, #banner {
         flex-direction: column;
     }
     .skill-box .skill-card {
         max-width: 100%;
+    }
+   footer {
+    margin-top: 65px;
+    padding: 65px 0;
+   }
+    .footer-container form input[type="text"], .footer-container form textarea {
+        width: 100%;
     }
 
 }
